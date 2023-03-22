@@ -23,7 +23,7 @@ jwt:
 # 数据库设置
 db:
   type: better-sqlite3
-  database: 'app.db'
+  database: 'data/app.db'
   statementCacheSize: 100
   logging: true
   synchronize: true

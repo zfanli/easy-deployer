@@ -8,7 +8,6 @@ import { LoggerModule } from './logger/logger.module'
 import { UsersModule } from './users/users.module'
 import { AuthModule } from './auth/auth.module'
 import { HealthModule } from './health/health.module'
-import { ApplicationsModule } from './applications/applications.module'
 import { OperlogModule } from './operlog/operlog.module'
 
 @Module({
@@ -19,7 +18,6 @@ import { OperlogModule } from './operlog/operlog.module'
     UsersModule,
     AuthModule,
     HealthModule,
-    ApplicationsModule,
     OperlogModule,
   ],
   providers: [
