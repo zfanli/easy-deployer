@@ -25,6 +25,8 @@ db:
   type: better-sqlite3
   database: 'app.db'
   statementCacheSize: 100
+  logging: true
+  synchronize: true
 
 # 文档配置
 docs:
