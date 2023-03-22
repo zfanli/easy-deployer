@@ -1,0 +1,34 @@
+# 删除文件后缀的 -sample 即可生效
+# 请按需填充以下配置
+
+# 基本配置
+# 监听端口
+port: 3091
+logLevel:
+  - log
+  - error
+  - warn
+  - debug
+  - verbose
+
+# jwt 设置
+jwt:
+  # 注意这个字段不要公开
+  secret: 'secretKey'
+  # jwt 有效期
+  expiresIn: 1d
+  # refresh token 有效期
+  refreshTokenExpiresIn: 7d
+
+# 数据库设置
+db:
+  type: better-sqlite3
+  database: 'app.db'
+  statementCacheSize: 100
+
+# 文档配置
+docs:
+  # 文档页面标题
+  title: API Docs
+  # 文档描述信息
+  description: API 文档

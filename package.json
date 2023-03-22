@@ -1,0 +1,11 @@
+{
+  "name": "easy-deployer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "svr": "pnpm --filter server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
