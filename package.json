@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "svr": "pnpm --filter server"
+    "svr": "pnpm --filter server",
+    "client": "pnpm --filter client"
   },
   "keywords": [],
   "author": "",
